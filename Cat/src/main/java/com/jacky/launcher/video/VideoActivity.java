@@ -29,7 +29,8 @@ public class VideoActivity extends Activity {
 
         jcVideoPlayerStandard.setUp(mMediaModel.getVideoUrl()
                 , JCVideoPlayerStandard.SCREEN_LAYOUT_LIST, mMediaModel.getTitle());
-        jcVideoPlayerStandard.startPlayLocic();
+//        jcVideoPlayerStandard.startPlayLocic();
+        jcVideoPlayerStandard.startVideo();
     }
 
     @Override
